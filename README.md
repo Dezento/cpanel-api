@@ -46,7 +46,7 @@ All you need to do then is to add word **Module** to the module name and call it
 
 and then write cPanel method name as php method.
 
-***list_domains()***
+**list_domains()**
 
 ```
 use Dezento\CpanelApi;
