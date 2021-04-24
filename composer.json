@@ -1,0 +1,21 @@
+{
+    "name": "dezento/cpanel-api",
+    "description": "Simple wrapper class for cPanel UAPI.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dezento",
+            "email": "milovanpanic92@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "Dezento\\": "src/"
+      }
+    }
+}
