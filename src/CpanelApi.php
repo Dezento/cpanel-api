@@ -106,7 +106,7 @@ class CpanelApi
 
         if ($result == false) {
 
-            return throw new Exception("Error: \"" . curl_error($curl) . "\" for $queryString", 400);
+            return throw new \Exception("Error: \"" . curl_error($curl) . "\" for $queryString", 400);
         }
 
         curl_close($curl);
