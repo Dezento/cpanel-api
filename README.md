@@ -2,11 +2,7 @@
 
 Simple wrapper class for cPanel UAPI. It uses php magic methods to make simple interface.
 
-## Installation
-```
-composer require dezento/cpanel-api
-```
-## Introduction
+## Overview
 
 [UAPI](https://api.docs.cpanel.net/cpanel/introduction/) accesses the cPanel interface's features. 
 
@@ -28,6 +24,11 @@ Then you copy exact cPanel API method name and call it as php method.
 
 Example:
 ``` add_mx()```
+
+## Installation
+```
+composer require dezento/cpanel-api
+```
 
 ## Usage
 
